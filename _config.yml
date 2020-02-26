@@ -30,7 +30,7 @@ twitter_username: a_laco
 github_username:  laco
 
 # Build settings
-theme: jekyll-theme-hydeout
+# theme: jekyll-theme-hydeout
 remote_theme: fongandrew/hydeout
 plugins:
   - jekyll-feed
