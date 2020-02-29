@@ -7,3 +7,27 @@ $link-color: #004445;
 $sidebar-sticky: false;
 $sidebar-width: 24rem;
 @import "hydeout";
+
+#sidebar #logo {
+    width: 4rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+@media (min-width: 49rem) {
+    #sidebar #logo {
+        width: 4rem;
+        display: block;
+        margin-left: 0;
+    }
+}
+
+#sidebar .site-title {
+    font-size: 1.50rem;
+}
+
+.home #sidebar .site-title {
+    font-size: 1.50rem;
+}
